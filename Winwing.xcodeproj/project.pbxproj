@@ -1,0 +1,1185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61F8B1E2D0456D700E63C3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F66F91662D0332F600F84283 /* main.cpp */; };
+		F635AD422E05697B005D6CDC /* bridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6827E102E05664C00382B28 /* bridge.mm */; };
+		F635AD462E0579E9005D6CDC /* usbcontroller_mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F635AD442E0579E9005D6CDC /* usbcontroller_mac.cpp */; };
+		F635AD472E0579E9005D6CDC /* usbcontroller_mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F635AD442E0579E9005D6CDC /* usbcontroller_mac.cpp */; };
+		F635AD4A2E05819E005D6CDC /* usbdevice_mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F635AD492E05819E005D6CDC /* usbdevice_mac.cpp */; };
+		F635AD4B2E05819E005D6CDC /* usbdevice_mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F635AD492E05819E005D6CDC /* usbdevice_mac.cpp */; };
+		F635AD502E058FFC005D6CDC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F635AD4F2E058FFC005D6CDC /* IOKit.framework */; platformFilters = (ios, maccatalyst, macos, tvos, xros, ); };
+		F635AD532E059872005D6CDC /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F635AD522E059872005D6CDC /* path.cpp */; };
+		F63BC99A2E30D73E00ACBBB0 /* appstate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF9ECB2D078ED400530297 /* appstate.cpp */; };
+		F647201E2E16CF6D00C9976B /* usbdevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F647201D2E16CF6D00C9976B /* usbdevice.cpp */; };
+		F647201F2E16CF6D00C9976B /* usbdevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F647201D2E16CF6D00C9976B /* usbdevice.cpp */; };
+		F64BE3E72E1BF625003C1B73 /* usbdevice_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64BE3E62E1BF625003C1B73 /* usbdevice_win.cpp */; };
+		F64BE3E92E1BF625003C1B73 /* usbcontroller_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64BE3E42E1BF625003C1B73 /* usbcontroller_win.cpp */; };
+		F64BE3EA2E1BF625003C1B73 /* usbcontroller_lin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64BE3E32E1BF625003C1B73 /* usbcontroller_lin.cpp */; };
+		F64BE3EB2E1BF625003C1B73 /* usbdevice_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64BE3E62E1BF625003C1B73 /* usbdevice_win.cpp */; };
+		F64BE3ED2E1BF625003C1B73 /* usbcontroller_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64BE3E42E1BF625003C1B73 /* usbcontroller_win.cpp */; };
+		F64BE3EE2E1BF625003C1B73 /* usbcontroller_lin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64BE3E32E1BF625003C1B73 /* usbcontroller_lin.cpp */; };
+		F67110DD2E5AF429008D493B /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67110DC2E5AF429008D493B /* font.cpp */; };
+		F67110DE2E5AF429008D493B /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67110DC2E5AF429008D493B /* font.cpp */; };
+		F67961952E31357E008031F1 /* usbdevice_lin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67961942E31357E008031F1 /* usbdevice_lin.cpp */; };
+		F67961962E31357E008031F1 /* usbdevice_lin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67961942E31357E008031F1 /* usbdevice_lin.cpp */; };
+		F68164E52E3161FD00319E9D /* usbcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F68164E42E3161FD00319E9D /* usbcontroller.cpp */; };
+		F68164E62E3161FD00319E9D /* usbcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F68164E42E3161FD00319E9D /* usbcontroller.cpp */; };
+		F6827E092E05652800382B28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6827E042E05651E00382B28 /* ContentView.swift */; };
+		F6827E0A2E05652E00382B28 /* WinwingDesktopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6827E052E05651E00382B28 /* WinwingDesktopApp.swift */; };
+		F688808B2E523DE900B10AFA /* xcrafts-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F688808A2E523DE900B10AFA /* xcrafts-fmc-profile.cpp */; };
+		F688808C2E523DE900B10AFA /* xcrafts-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F688808A2E523DE900B10AFA /* xcrafts-fmc-profile.cpp */; };
+		F691E46D2D0338E90000666C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F691E46C2D0338E90000666C /* CoreFoundation.framework */; };
+		F69FF22D2E1D13CB00F9D2D9 /* GenericDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69FF2292E1D13CB00F9D2D9 /* GenericDeviceView.swift */; };
+		F69FF22E2E1D13CB00F9D2D9 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69FF2282E1D13CB00F9D2D9 /* DeviceModel.swift */; };
+		F69FF22F2E1D13CB00F9D2D9 /* JoystickControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69FF22A2E1D13CB00F9D2D9 /* JoystickControlView.swift */; };
+		F6A1492F2E4F03A400FB8395 /* product-fmc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A1492D2E4F03A400FB8395 /* product-fmc.cpp */; };
+		F6A149302E4F03A400FB8395 /* toliss-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149292E4F03A400FB8395 /* toliss-fmc-profile.cpp */; };
+		F6A149312E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149272E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp */; };
+		F6A149322E4F03A400FB8395 /* product-fmc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A1492D2E4F03A400FB8395 /* product-fmc.cpp */; };
+		F6A149332E4F03A400FB8395 /* toliss-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149292E4F03A400FB8395 /* toliss-fmc-profile.cpp */; };
+		F6A149342E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149272E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp */; };
+		F6A1493D2E4F04AE00FB8395 /* zibo-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A1493C2E4F04AE00FB8395 /* zibo-fmc-profile.cpp */; };
+		F6A1493E2E4F04AE00FB8395 /* ssg748-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A1493A2E4F04AE00FB8395 /* ssg748-fmc-profile.cpp */; };
+		F6A1493F2E4F04AE00FB8395 /* ff777-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149362E4F04AE00FB8395 /* ff777-fmc-profile.cpp */; };
+		F6A149402E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149382E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp */; };
+		F6A149412E4F04AE00FB8395 /* zibo-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A1493C2E4F04AE00FB8395 /* zibo-fmc-profile.cpp */; };
+		F6A149422E4F04AE00FB8395 /* ssg748-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A1493A2E4F04AE00FB8395 /* ssg748-fmc-profile.cpp */; };
+		F6A149432E4F04AE00FB8395 /* ff777-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149362E4F04AE00FB8395 /* ff777-fmc-profile.cpp */; };
+		F6A149442E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A149382E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp */; };
+		F6A149462E4F37ED00FB8395 /* FMCControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A149452E4F37ED00FB8395 /* FMCControlView.swift */; };
+		F6AF9EC12D06F84900530297 /* dataref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF9EBC2D06F84900530297 /* dataref.cpp */; };
+		F6AF9EC62D078DB000530297 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AF9EC52D078DB000530297 /* Cocoa.framework */; };
+		F6AF9ECC2D078ED400530297 /* appstate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF9ECB2D078ED400530297 /* appstate.cpp */; };
+		F6BB75782E32634700C2B21F /* product-fcu-efis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6BB75762E32634700C2B21F /* product-fcu-efis.cpp */; };
+		F6BB75792E32634700C2B21F /* toliss-fcu-efis-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6BB75722E32634700C2B21F /* toliss-fcu-efis-profile.cpp */; };
+		F6BB757A2E32634700C2B21F /* product-fcu-efis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6BB75762E32634700C2B21F /* product-fcu-efis.cpp */; };
+		F6BB757B2E32634700C2B21F /* toliss-fcu-efis-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6BB75722E32634700C2B21F /* toliss-fcu-efis-profile.cpp */; };
+		F6C345512E18797400D7C987 /* dataref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF9EBC2D06F84900530297 /* dataref.cpp */; };
+		F6C3455F2E187AB700D7C987 /* xplane-sdk-mock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C3455E2E187AAF00D7C987 /* xplane-sdk-mock.cpp */; };
+		F6F77AB22E278F300060AFC0 /* product-ursa-minor-joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F77AAD2E278F300060AFC0 /* product-ursa-minor-joystick.cpp */; };
+		F6F77AB52E278F530060AFC0 /* product-ursa-minor-joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F77AAD2E278F300060AFC0 /* product-ursa-minor-joystick.cpp */; };
+		F6FBC55F2E3A3E15004E5F42 /* FCUEfisControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FBC55E2E3A3E15004E5F42 /* FCUEfisControlView.swift */; };
+		F6FC2A162E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */; };
+		F6FC2A172E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */; };
+		F6FC2A182E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */; };
+		F6FC2A192E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */; };
+		F6FF5F202E4B5CC5002508F6 /* XPWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FF5F1F2E4B5CC5002508F6 /* XPWidgets.framework */; };
+		F6FF5F212E4B5CC5002508F6 /* XPLM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FF5F1E2E4B5CC5002508F6 /* XPLM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D607B19909A556E400699BC3 /* winwing.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = winwing.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		F603C3A12E59D1C400B73F42 /* airbus_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_3.h; sourceTree = "<group>"; };
+		F61F8B2D2D059ED500E63C3F /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		F62304282E59DF8500EE0089 /* vga_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vga_1.h; sourceTree = "<group>"; };
+		F62304292E5A212700EE0089 /* vga_4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vga_4.h; sourceTree = "<group>"; };
+		F623042A2E5A212700EE0089 /* vga_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vga_3.h; sourceTree = "<group>"; };
+		F623042B2E5A212700EE0089 /* vga_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vga_2.h; sourceTree = "<group>"; };
+		F623042D2E5A230B00EE0089 /* font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		F62D2DF52E55FA4C00D307A4 /* xcrafts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xcrafts.h; sourceTree = "<group>"; };
+		F62D2DF72E55FA7B00D307A4 /* airbus_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_2.h; sourceTree = "<group>"; };
+		F62D2DF82E55FA9100D307A4 /* airbus_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_1.h; sourceTree = "<group>"; };
+		F62D2DF92E55FA9100D307A4 /* 737.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 737.h; sourceTree = "<group>"; };
+		F635AD432E0579E9005D6CDC /* usbcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbcontroller.h; sourceTree = "<group>"; };
+		F635AD442E0579E9005D6CDC /* usbcontroller_mac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbcontroller_mac.cpp; sourceTree = "<group>"; };
+		F635AD482E05819E005D6CDC /* usbdevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbdevice.h; sourceTree = "<group>"; };
+		F635AD492E05819E005D6CDC /* usbdevice_mac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbdevice_mac.cpp; sourceTree = "<group>"; };
+		F635AD4E2E058905005D6CDC /* Winwing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Winwing.entitlements; sourceTree = "<group>"; };
+		F635AD4F2E058FFC005D6CDC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		F635AD512E059872005D6CDC /* path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
+		F635AD522E059872005D6CDC /* path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = path.cpp; sourceTree = "<group>"; };
+		F647201D2E16CF6D00C9976B /* usbdevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbdevice.cpp; sourceTree = "<group>"; };
+		F64BE3E32E1BF625003C1B73 /* usbcontroller_lin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbcontroller_lin.cpp; sourceTree = "<group>"; };
+		F64BE3E42E1BF625003C1B73 /* usbcontroller_win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbcontroller_win.cpp; sourceTree = "<group>"; };
+		F64BE3E62E1BF625003C1B73 /* usbdevice_win.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbdevice_win.cpp; sourceTree = "<group>"; };
+		F66F91662D0332F600F84283 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F67110DC2E5AF429008D493B /* font.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = font.cpp; sourceTree = "<group>"; };
+		F67961942E31357E008031F1 /* usbdevice_lin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbdevice_lin.cpp; sourceTree = "<group>"; };
+		F68164E42E3161FD00319E9D /* usbcontroller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbcontroller.cpp; sourceTree = "<group>"; };
+		F6827DF82E0564F700382B28 /* WinwingDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinwingDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6827E032E05651E00382B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6827E042E05651E00382B28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6827E052E05651E00382B28 /* WinwingDesktopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinwingDesktopApp.swift; sourceTree = "<group>"; };
+		F6827E102E05664C00382B28 /* bridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = bridge.mm; sourceTree = "<group>"; };
+		F6827E122E05678E00382B28 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		F68880892E523DE900B10AFA /* xcrafts-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcrafts-fmc-profile.h"; sourceTree = "<group>"; };
+		F688808A2E523DE900B10AFA /* xcrafts-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "xcrafts-fmc-profile.cpp"; sourceTree = "<group>"; };
+		F691E46C2D0338E90000666C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F69BE2962E619CC00019EA48 /* airbus_4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_4.h; sourceTree = "<group>"; };
+		F69BE2972E61AC210019EA48 /* default.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = default.h; sourceTree = "<group>"; };
+		F69FF2282E1D13CB00F9D2D9 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		F69FF2292E1D13CB00F9D2D9 /* GenericDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDeviceView.swift; sourceTree = "<group>"; };
+		F69FF22A2E1D13CB00F9D2D9 /* JoystickControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickControlView.swift; sourceTree = "<group>"; };
+		F6A149262E4F03A400FB8395 /* laminar-airbus-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "laminar-airbus-fmc-profile.h"; sourceTree = "<group>"; };
+		F6A149272E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "laminar-airbus-fmc-profile.cpp"; sourceTree = "<group>"; };
+		F6A149282E4F03A400FB8395 /* toliss-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "toliss-fmc-profile.h"; sourceTree = "<group>"; };
+		F6A149292E4F03A400FB8395 /* toliss-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "toliss-fmc-profile.cpp"; sourceTree = "<group>"; };
+		F6A1492B2E4F03A400FB8395 /* fmc-aircraft-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fmc-aircraft-profile.h"; sourceTree = "<group>"; };
+		F6A1492C2E4F03A400FB8395 /* product-fmc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-fmc.h"; sourceTree = "<group>"; };
+		F6A1492D2E4F03A400FB8395 /* product-fmc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-fmc.cpp"; sourceTree = "<group>"; };
+		F6A149352E4F04AE00FB8395 /* ff777-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ff777-fmc-profile.h"; sourceTree = "<group>"; };
+		F6A149362E4F04AE00FB8395 /* ff777-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ff777-fmc-profile.cpp"; sourceTree = "<group>"; };
+		F6A149372E4F04AE00FB8395 /* ixeg733-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ixeg733-fmc-profile.h"; sourceTree = "<group>"; };
+		F6A149382E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ixeg733-fmc-profile.cpp"; sourceTree = "<group>"; };
+		F6A149392E4F04AE00FB8395 /* ssg748-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ssg748-fmc-profile.h"; sourceTree = "<group>"; };
+		F6A1493A2E4F04AE00FB8395 /* ssg748-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ssg748-fmc-profile.cpp"; sourceTree = "<group>"; };
+		F6A1493B2E4F04AE00FB8395 /* zibo-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zibo-fmc-profile.h"; sourceTree = "<group>"; };
+		F6A1493C2E4F04AE00FB8395 /* zibo-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "zibo-fmc-profile.cpp"; sourceTree = "<group>"; };
+		F6A149452E4F37ED00FB8395 /* FMCControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMCControlView.swift; sourceTree = "<group>"; };
+		F6A149472E4F552D00FB8395 /* fmc-hardware-mapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fmc-hardware-mapping.h"; sourceTree = "<group>"; };
+		F6AF9EBB2D06F84900530297 /* dataref.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataref.h; sourceTree = "<group>"; };
+		F6AF9EBC2D06F84900530297 /* dataref.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataref.cpp; sourceTree = "<group>"; };
+		F6AF9EC52D078DB000530297 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F6AF9ECA2D078ED400530297 /* appstate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appstate.h; sourceTree = "<group>"; };
+		F6AF9ECB2D078ED400530297 /* appstate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = appstate.cpp; sourceTree = "<group>"; };
+		F6BB75712E32634700C2B21F /* toliss-fcu-efis-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "toliss-fcu-efis-profile.h"; sourceTree = "<group>"; };
+		F6BB75722E32634700C2B21F /* toliss-fcu-efis-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "toliss-fcu-efis-profile.cpp"; sourceTree = "<group>"; };
+		F6BB75742E32634700C2B21F /* fcu-efis-aircraft-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fcu-efis-aircraft-profile.h"; sourceTree = "<group>"; };
+		F6BB75752E32634700C2B21F /* product-fcu-efis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-fcu-efis.h"; sourceTree = "<group>"; };
+		F6BB75762E32634700C2B21F /* product-fcu-efis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-fcu-efis.cpp"; sourceTree = "<group>"; };
+		F6C3455E2E187AAF00D7C987 /* xplane-sdk-mock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "xplane-sdk-mock.cpp"; sourceTree = "<group>"; };
+		F6F77AAC2E278F300060AFC0 /* product-ursa-minor-joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-ursa-minor-joystick.h"; sourceTree = "<group>"; };
+		F6F77AAD2E278F300060AFC0 /* product-ursa-minor-joystick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-ursa-minor-joystick.cpp"; sourceTree = "<group>"; };
+		F6FBC55E2E3A3E15004E5F42 /* FCUEfisControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCUEfisControlView.swift; sourceTree = "<group>"; };
+		F6FC2A0F2E5C5377009A40E2 /* mcp-zibo-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mcp-zibo-profile.h"; sourceTree = "<group>"; };
+		F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mcp-zibo-profile.cpp"; sourceTree = "<group>"; };
+		F6FC2A122E5C5377009A40E2 /* mcp-aircraft-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mcp-aircraft-profile.h"; sourceTree = "<group>"; };
+		F6FC2A132E5C5377009A40E2 /* product-pap3-mcp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-pap3-mcp.h"; sourceTree = "<group>"; };
+		F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-pap3-mcp.cpp"; sourceTree = "<group>"; };
+		F6FF5F1E2E4B5CC5002508F6 /* XPLM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPLM.framework; path = SDK/Libraries/Mac/XPLM.framework; sourceTree = "<group>"; };
+		F6FF5F1F2E4B5CC5002508F6 /* XPWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPWidgets.framework; path = SDK/Libraries/Mac/XPWidgets.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D607B19709A556E400699BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F691E46D2D0338E90000666C /* CoreFoundation.framework in Frameworks */,
+				F6FF5F202E4B5CC5002508F6 /* XPWidgets.framework in Frameworks */,
+				F6FF5F212E4B5CC5002508F6 /* XPLM.framework in Frameworks */,
+				F635AD502E058FFC005D6CDC /* IOKit.framework in Frameworks */,
+				F6AF9EC62D078DB000530297 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6827DF52E0564F700382B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D607B15F09A5563000699BC3 = {
+			isa = PBXGroup;
+			children = (
+				F66F91672D0332F600F84283 /* src */,
+				F691E46B2D0338E90000666C /* Frameworks */,
+				D607B19A09A556E400699BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D607B19A09A556E400699BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D607B19909A556E400699BC3 /* winwing.xpl */,
+				F6827DF82E0564F700382B28 /* WinwingDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F61F8B2E2D059ED500E63C3F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F6AF9EBF2D06F84900530297 /* utils */,
+				F6F77AAF2E278F300060AFC0 /* products */,
+				F61F8B2D2D059ED500E63C3F /* config.h */,
+				F6AF9ECA2D078ED400530297 /* appstate.h */,
+				F6AF9ECB2D078ED400530297 /* appstate.cpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F62D2DF62E55FA4C00D307A4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F623042D2E5A230B00EE0089 /* font.h */,
+				F67110DC2E5AF429008D493B /* font.cpp */,
+				F69BE2972E61AC210019EA48 /* default.h */,
+				F62D2DF82E55FA9100D307A4 /* airbus_1.h */,
+				F62D2DF72E55FA7B00D307A4 /* airbus_2.h */,
+				F603C3A12E59D1C400B73F42 /* airbus_3.h */,
+				F69BE2962E619CC00019EA48 /* airbus_4.h */,
+				F62D2DF92E55FA9100D307A4 /* 737.h */,
+				F62D2DF52E55FA4C00D307A4 /* xcrafts.h */,
+				F62304282E59DF8500EE0089 /* vga_1.h */,
+				F623042B2E5A212700EE0089 /* vga_2.h */,
+				F623042A2E5A212700EE0089 /* vga_3.h */,
+				F62304292E5A212700EE0089 /* vga_4.h */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F635AD452E0579E9005D6CDC /* usbdevice */ = {
+			isa = PBXGroup;
+			children = (
+				F635AD432E0579E9005D6CDC /* usbcontroller.h */,
+				F68164E42E3161FD00319E9D /* usbcontroller.cpp */,
+				F635AD442E0579E9005D6CDC /* usbcontroller_mac.cpp */,
+				F64BE3E32E1BF625003C1B73 /* usbcontroller_lin.cpp */,
+				F64BE3E42E1BF625003C1B73 /* usbcontroller_win.cpp */,
+				F635AD482E05819E005D6CDC /* usbdevice.h */,
+				F647201D2E16CF6D00C9976B /* usbdevice.cpp */,
+				F635AD492E05819E005D6CDC /* usbdevice_mac.cpp */,
+				F67961942E31357E008031F1 /* usbdevice_lin.cpp */,
+				F64BE3E62E1BF625003C1B73 /* usbdevice_win.cpp */,
+			);
+			path = usbdevice;
+			sourceTree = "<group>";
+		};
+		F66F91672D0332F600F84283 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F6827E062E05651E00382B28 /* desktop */,
+				F61F8B2E2D059ED500E63C3F /* include */,
+				F66F91662D0332F600F84283 /* main.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F6827E062E05651E00382B28 /* desktop */ = {
+			isa = PBXGroup;
+			children = (
+				F635AD4E2E058905005D6CDC /* Winwing.entitlements */,
+				F6827E032E05651E00382B28 /* Assets.xcassets */,
+				F6827E042E05651E00382B28 /* ContentView.swift */,
+				F6827E052E05651E00382B28 /* WinwingDesktopApp.swift */,
+				F69FF2282E1D13CB00F9D2D9 /* DeviceModel.swift */,
+				F69FF2292E1D13CB00F9D2D9 /* GenericDeviceView.swift */,
+				F69FF22A2E1D13CB00F9D2D9 /* JoystickControlView.swift */,
+				F6A149452E4F37ED00FB8395 /* FMCControlView.swift */,
+				F6FBC55E2E3A3E15004E5F42 /* FCUEfisControlView.swift */,
+				F6827E122E05678E00382B28 /* bridge.h */,
+				F6827E102E05664C00382B28 /* bridge.mm */,
+				F6C3455E2E187AAF00D7C987 /* xplane-sdk-mock.cpp */,
+			);
+			path = desktop;
+			sourceTree = "<group>";
+		};
+		F691E46B2D0338E90000666C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6FF5F1E2E4B5CC5002508F6 /* XPLM.framework */,
+				F6FF5F1F2E4B5CC5002508F6 /* XPWidgets.framework */,
+				F635AD4F2E058FFC005D6CDC /* IOKit.framework */,
+				F6AF9EC52D078DB000530297 /* Cocoa.framework */,
+				F691E46C2D0338E90000666C /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6A1492A2E4F03A400FB8395 /* profiles */ = {
+			isa = PBXGroup;
+			children = (
+				F6A149352E4F04AE00FB8395 /* ff777-fmc-profile.h */,
+				F6A149362E4F04AE00FB8395 /* ff777-fmc-profile.cpp */,
+				F6A149372E4F04AE00FB8395 /* ixeg733-fmc-profile.h */,
+				F6A149382E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp */,
+				F6A149392E4F04AE00FB8395 /* ssg748-fmc-profile.h */,
+				F6A1493A2E4F04AE00FB8395 /* ssg748-fmc-profile.cpp */,
+				F6A1493B2E4F04AE00FB8395 /* zibo-fmc-profile.h */,
+				F6A1493C2E4F04AE00FB8395 /* zibo-fmc-profile.cpp */,
+				F6A149262E4F03A400FB8395 /* laminar-airbus-fmc-profile.h */,
+				F6A149272E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp */,
+				F6A149282E4F03A400FB8395 /* toliss-fmc-profile.h */,
+				F6A149292E4F03A400FB8395 /* toliss-fmc-profile.cpp */,
+				F68880892E523DE900B10AFA /* xcrafts-fmc-profile.h */,
+				F688808A2E523DE900B10AFA /* xcrafts-fmc-profile.cpp */,
+			);
+			path = profiles;
+			sourceTree = "<group>";
+		};
+		F6A1492E2E4F03A400FB8395 /* fmc */ = {
+			isa = PBXGroup;
+			children = (
+				F6A1492B2E4F03A400FB8395 /* fmc-aircraft-profile.h */,
+				F6A149472E4F552D00FB8395 /* fmc-hardware-mapping.h */,
+				F62D2DF62E55FA4C00D307A4 /* fonts */,
+				F6A1492A2E4F03A400FB8395 /* profiles */,
+				F6A1492C2E4F03A400FB8395 /* product-fmc.h */,
+				F6A1492D2E4F03A400FB8395 /* product-fmc.cpp */,
+			);
+			path = fmc;
+			sourceTree = "<group>";
+		};
+		F6AF9EBF2D06F84900530297 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F635AD452E0579E9005D6CDC /* usbdevice */,
+				F6AF9EBB2D06F84900530297 /* dataref.h */,
+				F6AF9EBC2D06F84900530297 /* dataref.cpp */,
+				F635AD512E059872005D6CDC /* path.h */,
+				F635AD522E059872005D6CDC /* path.cpp */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		F6BB75732E32634700C2B21F /* profiles */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB75712E32634700C2B21F /* toliss-fcu-efis-profile.h */,
+				F6BB75722E32634700C2B21F /* toliss-fcu-efis-profile.cpp */,
+			);
+			path = profiles;
+			sourceTree = "<group>";
+		};
+		F6BB75772E32634700C2B21F /* fcu-efis */ = {
+			isa = PBXGroup;
+			children = (
+				F6BB75742E32634700C2B21F /* fcu-efis-aircraft-profile.h */,
+				F6BB75732E32634700C2B21F /* profiles */,
+				F6BB75752E32634700C2B21F /* product-fcu-efis.h */,
+				F6BB75762E32634700C2B21F /* product-fcu-efis.cpp */,
+			);
+			path = "fcu-efis";
+			sourceTree = "<group>";
+		};
+		F6F77AAE2E278F300060AFC0 /* ursa-minor-joystick */ = {
+			isa = PBXGroup;
+			children = (
+				F6F77AAC2E278F300060AFC0 /* product-ursa-minor-joystick.h */,
+				F6F77AAD2E278F300060AFC0 /* product-ursa-minor-joystick.cpp */,
+			);
+			path = "ursa-minor-joystick";
+			sourceTree = "<group>";
+		};
+		F6F77AAF2E278F300060AFC0 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A1492E2E4F03A400FB8395 /* fmc */,
+				F6BB75772E32634700C2B21F /* fcu-efis */,
+				F6FC2A152E5C5377009A40E2 /* pap3-mcp */,
+				F6F77AAE2E278F300060AFC0 /* ursa-minor-joystick */,
+			);
+			path = products;
+			sourceTree = "<group>";
+		};
+		F6FC2A112E5C5377009A40E2 /* profiles */ = {
+			isa = PBXGroup;
+			children = (
+				F6FC2A0F2E5C5377009A40E2 /* mcp-zibo-profile.h */,
+				F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */,
+			);
+			path = profiles;
+			sourceTree = "<group>";
+		};
+		F6FC2A152E5C5377009A40E2 /* pap3-mcp */ = {
+			isa = PBXGroup;
+			children = (
+				F6FC2A112E5C5377009A40E2 /* profiles */,
+				F6FC2A122E5C5377009A40E2 /* mcp-aircraft-profile.h */,
+				F6FC2A132E5C5377009A40E2 /* product-pap3-mcp.h */,
+				F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */,
+			);
+			path = "pap3-mcp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D607B19809A556E400699BC3 /* winwing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D607B19B09A556E400699BC3 /* Build configuration list for PBXNativeTarget "winwing" */;
+			buildPhases = (
+				D607B19609A556E400699BC3 /* Sources */,
+				D607B19709A556E400699BC3 /* Frameworks */,
+				F6AF9EBA2D06F05600530297 /* Copy debug build and assets to X-Plane/Resources/plugins folder */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = winwing;
+			productName = StarterPlugin;
+			productReference = D607B19909A556E400699BC3 /* winwing.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F6827DF72E0564F700382B28 /* WinwingDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6827E022E0564F800382B28 /* Build configuration list for PBXNativeTarget "WinwingDesktop" */;
+			buildPhases = (
+				F6827DF42E0564F700382B28 /* Sources */,
+				F6827DF52E0564F700382B28 /* Frameworks */,
+				F6827DF62E0564F700382B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinwingDesktop;
+			packageProductDependencies = (
+			);
+			productName = WinwingDesktop;
+			productReference = F6827DF82E0564F700382B28 /* WinwingDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D607B16109A5563100699BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				TargetAttributes = {
+					F6827DF72E0564F700382B28 = {
+						CreatedOnToolsVersion = 26.0;
+						LastSwiftMigration = 2600;
+					};
+				};
+			};
+			buildConfigurationList = D607B16209A5563100699BC3 /* Build configuration list for PBXProject "Winwing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D607B15F09A5563000699BC3;
+			productRefGroup = D607B19A09A556E400699BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D607B19809A556E400699BC3 /* winwing */,
+				F6827DF72E0564F700382B28 /* WinwingDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6827DF62E0564F700382B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6AF9EBA2D06F05600530297 /* Copy debug build and assets to X-Plane/Resources/plugins folder */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy debug build and assets to X-Plane/Resources/plugins folder";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cleaned_product_name=\"${PRODUCT_NAME//-mac/}\"\ncleaned_product_name=\"${cleaned_product_name//-win/}\"\ncleaned_product_name=\"${cleaned_product_name//-lin/}\"\nfolder=\"$HOME/X-Plane 12/Resources/plugins/${cleaned_product_name}\"\n\n[ ! -d \"$folder/assets\" ] && mkdir -p \"$folder/assets\"\n\n[ -d \"./assets\" ] && rsync -a --exclude=\".gitkeep\" ./assets/ \"$folder/assets/\" || true\n\ncase \"$OSTYPE\" in\n  darwin*) os_folder=\"mac_x64\" ;;\n  linux*) os_folder=\"lin_x64\" ;;\n  msys*) os_folder=\"win_x64\" ;;\n  *) os_folder=\"unknown\" ;;\nesac\n\n[ \"$os_folder\" != \"unknown\" ] && mkdir -p \"$folder/$os_folder\" && cp \"$BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH\" \"$folder/$os_folder/\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D607B19609A556E400699BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A1493D2E4F04AE00FB8395 /* zibo-fmc-profile.cpp in Sources */,
+				F6A1493E2E4F04AE00FB8395 /* ssg748-fmc-profile.cpp in Sources */,
+				F6A1493F2E4F04AE00FB8395 /* ff777-fmc-profile.cpp in Sources */,
+				F6A149402E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp in Sources */,
+				F6F77AB22E278F300060AFC0 /* product-ursa-minor-joystick.cpp in Sources */,
+				F6BB757A2E32634700C2B21F /* product-fcu-efis.cpp in Sources */,
+				F6BB757B2E32634700C2B21F /* toliss-fcu-efis-profile.cpp in Sources */,
+				F68164E62E3161FD00319E9D /* usbcontroller.cpp in Sources */,
+				F61F8B1E2D0456D700E63C3F /* main.cpp in Sources */,
+				F635AD532E059872005D6CDC /* path.cpp in Sources */,
+				F635AD4A2E05819E005D6CDC /* usbdevice_mac.cpp in Sources */,
+				F647201F2E16CF6D00C9976B /* usbdevice.cpp in Sources */,
+				F67110DE2E5AF429008D493B /* font.cpp in Sources */,
+				F688808B2E523DE900B10AFA /* xcrafts-fmc-profile.cpp in Sources */,
+				F64BE3E72E1BF625003C1B73 /* usbdevice_win.cpp in Sources */,
+				F64BE3E92E1BF625003C1B73 /* usbcontroller_win.cpp in Sources */,
+				F64BE3EA2E1BF625003C1B73 /* usbcontroller_lin.cpp in Sources */,
+				F6AF9ECC2D078ED400530297 /* appstate.cpp in Sources */,
+				F6A1492F2E4F03A400FB8395 /* product-fmc.cpp in Sources */,
+				F6A149302E4F03A400FB8395 /* toliss-fmc-profile.cpp in Sources */,
+				F6A149312E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp in Sources */,
+				F67961952E31357E008031F1 /* usbdevice_lin.cpp in Sources */,
+				F635AD472E0579E9005D6CDC /* usbcontroller_mac.cpp in Sources */,
+				F6AF9EC12D06F84900530297 /* dataref.cpp in Sources */,
+				F6FC2A182E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */,
+				F6FC2A192E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6827DF42E0564F700382B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F688808C2E523DE900B10AFA /* xcrafts-fmc-profile.cpp in Sources */,
+				F635AD462E0579E9005D6CDC /* usbcontroller_mac.cpp in Sources */,
+				F6827E0A2E05652E00382B28 /* WinwingDesktopApp.swift in Sources */,
+				F635AD4B2E05819E005D6CDC /* usbdevice_mac.cpp in Sources */,
+				F64BE3EB2E1BF625003C1B73 /* usbdevice_win.cpp in Sources */,
+				F64BE3ED2E1BF625003C1B73 /* usbcontroller_win.cpp in Sources */,
+				F6BB75782E32634700C2B21F /* product-fcu-efis.cpp in Sources */,
+				F6BB75792E32634700C2B21F /* toliss-fcu-efis-profile.cpp in Sources */,
+				F63BC99A2E30D73E00ACBBB0 /* appstate.cpp in Sources */,
+				F64BE3EE2E1BF625003C1B73 /* usbcontroller_lin.cpp in Sources */,
+				F68164E52E3161FD00319E9D /* usbcontroller.cpp in Sources */,
+				F6F77AB52E278F530060AFC0 /* product-ursa-minor-joystick.cpp in Sources */,
+				F6C345512E18797400D7C987 /* dataref.cpp in Sources */,
+				F6A149462E4F37ED00FB8395 /* FMCControlView.swift in Sources */,
+				F6C3455F2E187AB700D7C987 /* xplane-sdk-mock.cpp in Sources */,
+				F6A149322E4F03A400FB8395 /* product-fmc.cpp in Sources */,
+				F6A149332E4F03A400FB8395 /* toliss-fmc-profile.cpp in Sources */,
+				F6A149342E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp in Sources */,
+				F6A149412E4F04AE00FB8395 /* zibo-fmc-profile.cpp in Sources */,
+				F6A149422E4F04AE00FB8395 /* ssg748-fmc-profile.cpp in Sources */,
+				F6A149432E4F04AE00FB8395 /* ff777-fmc-profile.cpp in Sources */,
+				F6A149442E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp in Sources */,
+				F6827E092E05652800382B28 /* ContentView.swift in Sources */,
+				F6FBC55F2E3A3E15004E5F42 /* FCUEfisControlView.swift in Sources */,
+				F6FC2A162E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */,
+				F6FC2A172E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */,
+				F69FF22D2E1D13CB00F9D2D9 /* GenericDeviceView.swift in Sources */,
+				F69FF22E2E1D13CB00F9D2D9 /* DeviceModel.swift in Sources */,
+				F69FF22F2E1D13CB00F9D2D9 /* JoystickControlView.swift in Sources */,
+				F67110DD2E5AF429008D493B /* font.cpp in Sources */,
+				F647201E2E16CF6D00C9976B /* usbdevice.cpp in Sources */,
+				F67961962E31357E008031F1 /* usbdevice_lin.cpp in Sources */,
+				F635AD422E05697B005D6CDC /* bridge.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D607B16309A5563100699BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_EXTENSION = xpl;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APL=1",
+					"IBM=0",
+					"LIN=0",
+					"XPLM200=1",
+					"XPLM210=1",
+					"XPLM300=1",
+					"XPLM301=1",
+					"XPLM302=1",
+					"XPLM303=1",
+					"XPLM400=1",
+					"XPLM410=1",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				XPSDK_ROOT = SDK;
+			};
+			name = Debug;
+		};
+		D607B16409A5563100699BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_EXTENSION = xpl;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APL=1",
+					"IBM=0",
+					"LIN=0",
+					"XPLM200=1",
+					"XPLM210=1",
+					"XPLM300=1",
+					"XPLM301=1",
+					"XPLM302=1",
+					"XPLM303=1",
+					"XPLM400=1",
+					"XPLM410=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				XPSDK_ROOT = SDK;
+			};
+			name = Release;
+		};
+		D607B19C09A556E400699BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(PROJECT_DIR)/SDK_410/Libraries/Mac",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStart",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginEnable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginReceiveMessage",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginDisable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStop",
+				);
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				XPSDK_ROOT = SDK;
+			};
+			name = Debug;
+		};
+		D607B19D09A556E400699BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = (
+					x86_64,
+					arm64,
+				);
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(PROJECT_DIR)/SDK_410/Libraries/Mac",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStart",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginEnable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginReceiveMessage",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginDisable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStop",
+				);
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				XPSDK_ROOT = SDK;
+			};
+			name = Release;
+		};
+		F6827E002E0564F800382B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = src/desktop/Winwing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WUAFN7S2AR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.ramonster.winwing-desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = src/desktop/bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				XPSDK_ROOT = SDK;
+			};
+			name = Debug;
+		};
+		F6827E012E0564F800382B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = src/desktop/Winwing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WUAFN7S2AR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.ramonster.winwing-desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = src/desktop/bridge.h;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				XPSDK_ROOT = SDK;
+			};
+			name = Release;
+		};
+		F6A149482E4F62CC00FB8395 /* Debug (x86_64) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_EXTENSION = xpl;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APL=1",
+					"IBM=0",
+					"LIN=0",
+					"XPLM200=1",
+					"XPLM210=1",
+					"XPLM300=1",
+					"XPLM301=1",
+					"XPLM302=1",
+					"XPLM303=1",
+					"XPLM400=1",
+					"XPLM410=1",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				XPSDK_ROOT = SDK;
+			};
+			name = "Debug (x86_64)";
+		};
+		F6A149492E4F62CC00FB8395 /* Debug (x86_64) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = x86_64;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(PROJECT_DIR)/SDK_410/Libraries/Mac",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStart",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginEnable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginReceiveMessage",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginDisable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStop",
+				);
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				XPSDK_ROOT = SDK;
+			};
+			name = "Debug (x86_64)";
+		};
+		F6A1494A2E4F62CC00FB8395 /* Debug (x86_64) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = src/desktop/Winwing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WUAFN7S2AR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.ramonster.winwing-desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = src/desktop/bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				XPSDK_ROOT = SDK;
+			};
+			name = "Debug (x86_64)";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D607B16209A5563100699BC3 /* Build configuration list for PBXProject "Winwing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D607B16309A5563100699BC3 /* Debug */,
+				F6A149482E4F62CC00FB8395 /* Debug (x86_64) */,
+				D607B16409A5563100699BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D607B19B09A556E400699BC3 /* Build configuration list for PBXNativeTarget "winwing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D607B19C09A556E400699BC3 /* Debug */,
+				F6A149492E4F62CC00FB8395 /* Debug (x86_64) */,
+				D607B19D09A556E400699BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6827E022E0564F800382B28 /* Build configuration list for PBXNativeTarget "WinwingDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6827E002E0564F800382B28 /* Debug */,
+				F6A1494A2E4F62CC00FB8395 /* Debug (x86_64) */,
+				F6827E012E0564F800382B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D607B16109A5563100699BC3 /* Project object */;
+}
