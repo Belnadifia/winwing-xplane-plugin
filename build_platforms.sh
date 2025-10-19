@@ -115,6 +115,3 @@ mv $PROJECT_NAME dist
 cd ..
 
 echo "Bundle created. Distribution: build/dist/$PROJECT_NAME-$VERSION.zip"
-rm -rf /Users/belnadifia/Library/Application\ Support/Steam/steamapps/common/X-Plane\ 12/Resources/plugins/winwing/mac_x64/winwing.xpl
-cp /Users/belnadifia/Downloads/winwing-xplane-plugin-main/build/mac/mac_x64/winwing.xpl /Users/belnadifia/Library/Application\ Support/Steam/steamapps/common/X-Plane\ 12/Resources/plugins/winwing/mac_x64/
-xattr -dr com.apple.quarantine /Users/belnadifia/Library/Application\ Support/Steam/steamapps/common/X-Plane\ 12/Resources/plugins/winwing/mac_x64
