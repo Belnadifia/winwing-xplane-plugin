@@ -3,6 +3,10 @@ lib/mac_x64/
 lib/lin_x64/
 lib/win_x64/
 build/
+.vscode/
+.DS_Store/
+Winwing.xcodeproj/
+
 
 CMakeLists.txt.user
 CMakeCache.txt
@@ -17,6 +21,8 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+build_platforms.sh
+
 
 ### C++ ###
 # Prerequisites
