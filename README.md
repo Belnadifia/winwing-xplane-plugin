@@ -34,16 +34,15 @@ For linux, see the [Linux udev rules](#linux-udev-rules) section below to ensure
 
 The matrix below shows device and aircraft compatibility. Devices are listed vertically, aircraft horizontally.
 
-| Device                    | Toliss A3xx | Laminar A330 | AeroGenesis A330 | Zibo 737 | IXEG 737 | FF 777 | SSG 747 | Notes |
-| ------------------------- | ----------- | ------------ | ---------------- | -------- | -------- | ------ | ------- | ----- |
-| **URSA MINOR Joystick L** | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟢     | 🟢      |       |
-| **URSA MINOR Joystick R** | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟢     | 🟢      |       |
-| **MCDU-32**               | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟠     | 🟠      |       |
-| **PFP 3N**                | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟠     | 🟠      |       |
-| **PFP 4**                 | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟠     | 🟠      |       |
-| **PFP 7**                 | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟠     | 🟠      |       |
-| **Panel of Autopilot 3**  | 🔴          | 🔴           | 🔴               | 🟢       | 🔴       | 🔴     | 🔴      |       |
-| **FCU and EFIS L+R**      | 🟢          | 🔴           | 🔴               | 🔴       | 🔴       | 🔴     | 🔴      |       |
+| Device                      | Toliss A3xx | Laminar A330 | AeroGenesis A330 | Zibo 737 | IXEG 737 | FF 767/777 | SSG 747 |
+| --------------------------- | ----------- | ------------ | ---------------- | -------- | -------- | ---------- | ------- |
+| **URSA MINOR Joystick L+R** | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟢         | 🟢      |
+| **MCDU-32**                 | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟢         | 🟠      |
+| **PFP 3N**                  | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟢         | 🟠      |
+| **PFP 4**                   | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟢         | 🟠      |
+| **PFP 7**                   | 🟢          | 🟢           | 🟢               | 🟢       | 🟢       | 🟢         | 🟠      |
+| **Panel of Autopilot 3**    | 🔴          | 🔴           | 🔴               | 🟢       | 🔴       | 🔴         | 🔴      |
+| **FCU and EFIS L+R**        | 🟢          | 🟢           | 🔴               | 🔴       | 🔴       | 🔴         | 🔴      |
 
 #### Legend
 
@@ -55,16 +54,17 @@ The matrix below shows device and aircraft compatibility. Devices are listed ver
 
 - 🟠 The SSG 747 does not expose any colour datarefs yet. Therefore, the PFP will not show the correct colours.
 - 🟠 The SSG 747 has a dual FMC, but the datarefs seem to overwrite eachother.
-- 🟠 Need to find a way to command the FF777 buttons.
 
 ### Credits
 
 - [@Schenlap](https://github.com/schenlap) for the initial python implementation and providing the HID protocol documentation.
 - [@zodiac1214](https://github.com/zodiac1214) for the Ursa Minor Joystick HID protocol.
-- [@CyberGuerro](https://github.com/cyberguerro) for the PFP3N HID protocol.
+- [@CyberGuerro](https://github.com/cyberguerro) for the PFP3N HID protocol and a lot of testing work.
 - [@claaslange](https://github.com/claaslange) for the FCU-EFIS integration.
 - [@shred86](https://github.com/shred86) for identifying the Ursa Minor Joystick R.
 - [@Belnadifia](https://github.com/Belnadifia) for the complete PAP3 HID protocol and Zibo profile.
+- [@ColinM9991](https://github.com/ColinM9991) for the FF777 profile.
+- [@tukan68](https://github.com/tukan68) for FF767 profile.
 
 ### Linux udev rules
 

@@ -1,5 +1,5 @@
-#ifndef TOLISS_FCU_EFIS_PROFILE_H
-#define TOLISS_FCU_EFIS_PROFILE_H
+#ifndef LAMINAR_FCU_EFIS_PROFILE_H
+#define LAMINAR_FCU_EFIS_PROFILE_H
 
 #include "fcu-efis-aircraft-profile.h"
 
@@ -7,10 +7,10 @@
 #include <string>
 #include <vector>
 
-class TolissFCUEfisProfile : public FCUEfisAircraftProfile {
+class LaminarFCUEfisProfile : public FCUEfisAircraftProfile {
     public:
-        TolissFCUEfisProfile(ProductFCUEfis *product);
-        ~TolissFCUEfisProfile();
+        LaminarFCUEfisProfile(ProductFCUEfis *product);
+        ~LaminarFCUEfisProfile();
 
         static bool IsEligible();
 
@@ -30,4 +30,4 @@ class TolissFCUEfisProfile : public FCUEfisAircraftProfile {
         void buttonPressed(const FCUEfisButtonDef *button, XPLMCommandPhase phase) override;
 };
 
-#endif // TOLISS_FCU_EFIS_PROFILE_H
+#endif // LAMINAR_FCU_EFIS_PROFILE_H

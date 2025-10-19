@@ -51,7 +51,7 @@ bool writerUsbWriteData(DevicePtr dev, const uint8_t* data, std::size_t len)
 {
     if (!dev || !data || len == 0) return false;
     std::vector<uint8_t> buffer(data, data + len);
-    return dev->writeData(std::move(buffer), "PAP3-MCP");
+    return dev->writeData(std::move(buffer));
 }
 
 void setWriter(WriterFn fn) { s_writer = fn; }

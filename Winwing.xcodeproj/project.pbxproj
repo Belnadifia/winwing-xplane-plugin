@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DBA92312E6F4D71007328BC /* ff767-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA92302E6F4D71007328BC /* ff767-fmc-profile.cpp */; };
+		5DBA92322E6F4D71007328BC /* ff767-fmc-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA92302E6F4D71007328BC /* ff767-fmc-profile.cpp */; };
 		F61F8B1E2D0456D700E63C3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F66F91662D0332F600F84283 /* main.cpp */; };
 		F635AD422E05697B005D6CDC /* bridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6827E102E05664C00382B28 /* bridge.mm */; };
 		F635AD462E0579E9005D6CDC /* usbcontroller_mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F635AD442E0579E9005D6CDC /* usbcontroller_mac.cpp */; };
@@ -28,6 +30,8 @@
 		F67110DE2E5AF429008D493B /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67110DC2E5AF429008D493B /* font.cpp */; };
 		F67961952E31357E008031F1 /* usbdevice_lin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67961942E31357E008031F1 /* usbdevice_lin.cpp */; };
 		F67961962E31357E008031F1 /* usbdevice_lin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67961942E31357E008031F1 /* usbdevice_lin.cpp */; };
+		F67FE8142E895BAC00C4243C /* laminar-fcu-efis-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67FE8132E895BAC00C4243C /* laminar-fcu-efis-profile.cpp */; };
+		F67FE8152E895BAC00C4243C /* laminar-fcu-efis-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67FE8132E895BAC00C4243C /* laminar-fcu-efis-profile.cpp */; };
 		F68164E52E3161FD00319E9D /* usbcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F68164E42E3161FD00319E9D /* usbcontroller.cpp */; };
 		F68164E62E3161FD00319E9D /* usbcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F68164E42E3161FD00319E9D /* usbcontroller.cpp */; };
 		F6827E092E05652800382B28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6827E042E05651E00382B28 /* ContentView.swift */; };
@@ -62,20 +66,23 @@
 		F6BB757B2E32634700C2B21F /* toliss-fcu-efis-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6BB75722E32634700C2B21F /* toliss-fcu-efis-profile.cpp */; };
 		F6C345512E18797400D7C987 /* dataref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF9EBC2D06F84900530297 /* dataref.cpp */; };
 		F6C3455F2E187AB700D7C987 /* xplane-sdk-mock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C3455E2E187AAF00D7C987 /* xplane-sdk-mock.cpp */; };
+		F6C6E0302E8D5DAA00558F46 /* product-pap3-mcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C6E02A2E8D5DAA00558F46 /* product-pap3-mcp.cpp */; };
+		F6C6E0312E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C6E02C2E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp */; };
+		F6C6E0322E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C6E02E2E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp */; };
+		F6C6E0332E8D5DAA00558F46 /* product-pap3-mcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C6E02A2E8D5DAA00558F46 /* product-pap3-mcp.cpp */; };
+		F6C6E0342E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C6E02C2E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp */; };
+		F6C6E0352E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6C6E02E2E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp */; };
 		F6F77AB22E278F300060AFC0 /* product-ursa-minor-joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F77AAD2E278F300060AFC0 /* product-ursa-minor-joystick.cpp */; };
 		F6F77AB52E278F530060AFC0 /* product-ursa-minor-joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F77AAD2E278F300060AFC0 /* product-ursa-minor-joystick.cpp */; };
 		F6FBC55F2E3A3E15004E5F42 /* FCUEfisControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FBC55E2E3A3E15004E5F42 /* FCUEfisControlView.swift */; };
-		F6FC2A162E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */; };
-		F6FC2A172E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */; };
-		F6FC2A182E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */; };
-		F6FC2A192E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */; };
 		F6FF5F202E4B5CC5002508F6 /* XPWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FF5F1F2E4B5CC5002508F6 /* XPWidgets.framework */; };
 		F6FF5F212E4B5CC5002508F6 /* XPLM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FF5F1E2E4B5CC5002508F6 /* XPLM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DBA922F2E6F4D71007328BC /* ff767-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ff767-fmc-profile.h"; sourceTree = "<group>"; };
+		5DBA92302E6F4D71007328BC /* ff767-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ff767-fmc-profile.cpp"; sourceTree = "<group>"; };
 		D607B19909A556E400699BC3 /* winwing.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = winwing.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
-		F603C3A12E59D1C400B73F42 /* airbus_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_3.h; sourceTree = "<group>"; };
 		F61F8B2D2D059ED500E63C3F /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		F62304282E59DF8500EE0089 /* vga_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vga_1.h; sourceTree = "<group>"; };
 		F62304292E5A212700EE0089 /* vga_4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vga_4.h; sourceTree = "<group>"; };
@@ -83,8 +90,6 @@
 		F623042B2E5A212700EE0089 /* vga_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vga_2.h; sourceTree = "<group>"; };
 		F623042D2E5A230B00EE0089 /* font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
 		F62D2DF52E55FA4C00D307A4 /* xcrafts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xcrafts.h; sourceTree = "<group>"; };
-		F62D2DF72E55FA7B00D307A4 /* airbus_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_2.h; sourceTree = "<group>"; };
-		F62D2DF82E55FA9100D307A4 /* airbus_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_1.h; sourceTree = "<group>"; };
 		F62D2DF92E55FA9100D307A4 /* 737.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 737.h; sourceTree = "<group>"; };
 		F635AD432E0579E9005D6CDC /* usbcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbcontroller.h; sourceTree = "<group>"; };
 		F635AD442E0579E9005D6CDC /* usbcontroller_mac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbcontroller_mac.cpp; sourceTree = "<group>"; };
@@ -101,6 +106,8 @@
 		F66F91662D0332F600F84283 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F67110DC2E5AF429008D493B /* font.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = font.cpp; sourceTree = "<group>"; };
 		F67961942E31357E008031F1 /* usbdevice_lin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbdevice_lin.cpp; sourceTree = "<group>"; };
+		F67FE8122E895BAC00C4243C /* laminar-fcu-efis-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "laminar-fcu-efis-profile.h"; sourceTree = "<group>"; };
+		F67FE8132E895BAC00C4243C /* laminar-fcu-efis-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "laminar-fcu-efis-profile.cpp"; sourceTree = "<group>"; };
 		F68164E42E3161FD00319E9D /* usbcontroller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usbcontroller.cpp; sourceTree = "<group>"; };
 		F6827DF82E0564F700382B28 /* WinwingDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinwingDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6827E032E05651E00382B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +118,7 @@
 		F68880892E523DE900B10AFA /* xcrafts-fmc-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcrafts-fmc-profile.h"; sourceTree = "<group>"; };
 		F688808A2E523DE900B10AFA /* xcrafts-fmc-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "xcrafts-fmc-profile.cpp"; sourceTree = "<group>"; };
 		F691E46C2D0338E90000666C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		F69BE2962E619CC00019EA48 /* airbus_4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus_4.h; sourceTree = "<group>"; };
+		F69BE2962E619CC00019EA48 /* airbus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airbus.h; sourceTree = "<group>"; };
 		F69BE2972E61AC210019EA48 /* default.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = default.h; sourceTree = "<group>"; };
 		F69FF2282E1D13CB00F9D2D9 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		F69FF2292E1D13CB00F9D2D9 /* GenericDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDeviceView.swift; sourceTree = "<group>"; };
@@ -144,14 +151,17 @@
 		F6BB75752E32634700C2B21F /* product-fcu-efis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-fcu-efis.h"; sourceTree = "<group>"; };
 		F6BB75762E32634700C2B21F /* product-fcu-efis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-fcu-efis.cpp"; sourceTree = "<group>"; };
 		F6C3455E2E187AAF00D7C987 /* xplane-sdk-mock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "xplane-sdk-mock.cpp"; sourceTree = "<group>"; };
+		F6C6E0272E8D5DAA00558F46 /* pap3-mcp-aircraft-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pap3-mcp-aircraft-profile.h"; sourceTree = "<group>"; };
+		F6C6E0282E8D5DAA00558F46 /* pap3-mcp-lcd-segments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pap3-mcp-lcd-segments.h"; sourceTree = "<group>"; };
+		F6C6E0292E8D5DAA00558F46 /* product-pap3-mcp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-pap3-mcp.h"; sourceTree = "<group>"; };
+		F6C6E02A2E8D5DAA00558F46 /* product-pap3-mcp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-pap3-mcp.cpp"; sourceTree = "<group>"; };
+		F6C6E02B2E8D5DAA00558F46 /* laminar-pap3-mcp-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "laminar-pap3-mcp-profile.h"; sourceTree = "<group>"; };
+		F6C6E02C2E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "laminar-pap3-mcp-profile.cpp"; sourceTree = "<group>"; };
+		F6C6E02D2E8D5DAA00558F46 /* zibo-pap3-mcp-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zibo-pap3-mcp-profile.h"; sourceTree = "<group>"; };
+		F6C6E02E2E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "zibo-pap3-mcp-profile.cpp"; sourceTree = "<group>"; };
 		F6F77AAC2E278F300060AFC0 /* product-ursa-minor-joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-ursa-minor-joystick.h"; sourceTree = "<group>"; };
 		F6F77AAD2E278F300060AFC0 /* product-ursa-minor-joystick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-ursa-minor-joystick.cpp"; sourceTree = "<group>"; };
 		F6FBC55E2E3A3E15004E5F42 /* FCUEfisControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCUEfisControlView.swift; sourceTree = "<group>"; };
-		F6FC2A0F2E5C5377009A40E2 /* mcp-zibo-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mcp-zibo-profile.h"; sourceTree = "<group>"; };
-		F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mcp-zibo-profile.cpp"; sourceTree = "<group>"; };
-		F6FC2A122E5C5377009A40E2 /* mcp-aircraft-profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mcp-aircraft-profile.h"; sourceTree = "<group>"; };
-		F6FC2A132E5C5377009A40E2 /* product-pap3-mcp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "product-pap3-mcp.h"; sourceTree = "<group>"; };
-		F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "product-pap3-mcp.cpp"; sourceTree = "<group>"; };
 		F6FF5F1E2E4B5CC5002508F6 /* XPLM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPLM.framework; path = SDK/Libraries/Mac/XPLM.framework; sourceTree = "<group>"; };
 		F6FF5F1F2E4B5CC5002508F6 /* XPWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPWidgets.framework; path = SDK/Libraries/Mac/XPWidgets.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,10 +225,7 @@
 				F623042D2E5A230B00EE0089 /* font.h */,
 				F67110DC2E5AF429008D493B /* font.cpp */,
 				F69BE2972E61AC210019EA48 /* default.h */,
-				F62D2DF82E55FA9100D307A4 /* airbus_1.h */,
-				F62D2DF72E55FA7B00D307A4 /* airbus_2.h */,
-				F603C3A12E59D1C400B73F42 /* airbus_3.h */,
-				F69BE2962E619CC00019EA48 /* airbus_4.h */,
+				F69BE2962E619CC00019EA48 /* airbus.h */,
 				F62D2DF92E55FA9100D307A4 /* 737.h */,
 				F62D2DF52E55FA4C00D307A4 /* xcrafts.h */,
 				F62304282E59DF8500EE0089 /* vga_1.h */,
@@ -290,6 +297,8 @@
 		F6A1492A2E4F03A400FB8395 /* profiles */ = {
 			isa = PBXGroup;
 			children = (
+				5DBA922F2E6F4D71007328BC /* ff767-fmc-profile.h */,
+				5DBA92302E6F4D71007328BC /* ff767-fmc-profile.cpp */,
 				F6A149352E4F04AE00FB8395 /* ff777-fmc-profile.h */,
 				F6A149362E4F04AE00FB8395 /* ff777-fmc-profile.cpp */,
 				F6A149372E4F04AE00FB8395 /* ixeg733-fmc-profile.h */,
@@ -338,6 +347,8 @@
 			children = (
 				F6BB75712E32634700C2B21F /* toliss-fcu-efis-profile.h */,
 				F6BB75722E32634700C2B21F /* toliss-fcu-efis-profile.cpp */,
+				F67FE8122E895BAC00C4243C /* laminar-fcu-efis-profile.h */,
+				F67FE8132E895BAC00C4243C /* laminar-fcu-efis-profile.cpp */,
 			);
 			path = profiles;
 			sourceTree = "<group>";
@@ -351,6 +362,17 @@
 				F6BB75762E32634700C2B21F /* product-fcu-efis.cpp */,
 			);
 			path = "fcu-efis";
+			sourceTree = "<group>";
+		};
+		F6C6E02F2E8D5DAA00558F46 /* profiles */ = {
+			isa = PBXGroup;
+			children = (
+				F6C6E02B2E8D5DAA00558F46 /* laminar-pap3-mcp-profile.h */,
+				F6C6E02C2E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp */,
+				F6C6E02D2E8D5DAA00558F46 /* zibo-pap3-mcp-profile.h */,
+				F6C6E02E2E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp */,
+			);
+			path = profiles;
 			sourceTree = "<group>";
 		};
 		F6F77AAE2E278F300060AFC0 /* ursa-minor-joystick */ = {
@@ -373,22 +395,14 @@
 			path = products;
 			sourceTree = "<group>";
 		};
-		F6FC2A112E5C5377009A40E2 /* profiles */ = {
-			isa = PBXGroup;
-			children = (
-				F6FC2A0F2E5C5377009A40E2 /* mcp-zibo-profile.h */,
-				F6FC2A102E5C5377009A40E2 /* mcp-zibo-profile.cpp */,
-			);
-			path = profiles;
-			sourceTree = "<group>";
-		};
 		F6FC2A152E5C5377009A40E2 /* pap3-mcp */ = {
 			isa = PBXGroup;
 			children = (
-				F6FC2A112E5C5377009A40E2 /* profiles */,
-				F6FC2A122E5C5377009A40E2 /* mcp-aircraft-profile.h */,
-				F6FC2A132E5C5377009A40E2 /* product-pap3-mcp.h */,
-				F6FC2A142E5C5377009A40E2 /* product-pap3-mcp.cpp */,
+				F6C6E0272E8D5DAA00558F46 /* pap3-mcp-aircraft-profile.h */,
+				F6C6E02F2E8D5DAA00558F46 /* profiles */,
+				F6C6E0282E8D5DAA00558F46 /* pap3-mcp-lcd-segments.h */,
+				F6C6E0292E8D5DAA00558F46 /* product-pap3-mcp.h */,
+				F6C6E02A2E8D5DAA00558F46 /* product-pap3-mcp.cpp */,
 			);
 			path = "pap3-mcp";
 			sourceTree = "<group>";
@@ -402,7 +416,6 @@
 			buildPhases = (
 				D607B19609A556E400699BC3 /* Sources */,
 				D607B19709A556E400699BC3 /* Frameworks */,
-				F6AF9EBA2D06F05600530297 /* Copy debug build and assets to X-Plane/Resources/plugins folder */,
 			);
 			buildRules = (
 			);
@@ -438,7 +451,9 @@
 		D607B16109A5563100699BC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					F6827DF72E0564F700382B28 = {
 						CreatedOnToolsVersion = 26.0;
@@ -475,35 +490,15 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		F6AF9EBA2D06F05600530297 /* Copy debug build and assets to X-Plane/Resources/plugins folder */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Copy debug build and assets to X-Plane/Resources/plugins folder";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cleaned_product_name=\"${PRODUCT_NAME//-mac/}\"\ncleaned_product_name=\"${cleaned_product_name//-win/}\"\ncleaned_product_name=\"${cleaned_product_name//-lin/}\"\nfolder=\"$HOME/X-Plane 12/Resources/plugins/${cleaned_product_name}\"\n\n[ ! -d \"$folder/assets\" ] && mkdir -p \"$folder/assets\"\n\n[ -d \"./assets\" ] && rsync -a --exclude=\".gitkeep\" ./assets/ \"$folder/assets/\" || true\n\ncase \"$OSTYPE\" in\n  darwin*) os_folder=\"mac_x64\" ;;\n  linux*) os_folder=\"lin_x64\" ;;\n  msys*) os_folder=\"win_x64\" ;;\n  *) os_folder=\"unknown\" ;;\nesac\n\n[ \"$os_folder\" != \"unknown\" ] && mkdir -p \"$folder/$os_folder\" && cp \"$BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH\" \"$folder/$os_folder/\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D607B19609A556E400699BC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F6A1493D2E4F04AE00FB8395 /* zibo-fmc-profile.cpp in Sources */,
+				F6C6E0332E8D5DAA00558F46 /* product-pap3-mcp.cpp in Sources */,
+				F6C6E0342E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp in Sources */,
+				F6C6E0352E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp in Sources */,
 				F6A1493E2E4F04AE00FB8395 /* ssg748-fmc-profile.cpp in Sources */,
 				F6A1493F2E4F04AE00FB8395 /* ff777-fmc-profile.cpp in Sources */,
 				F6A149402E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp in Sources */,
@@ -513,6 +508,7 @@
 				F68164E62E3161FD00319E9D /* usbcontroller.cpp in Sources */,
 				F61F8B1E2D0456D700E63C3F /* main.cpp in Sources */,
 				F635AD532E059872005D6CDC /* path.cpp in Sources */,
+				F67FE8142E895BAC00C4243C /* laminar-fcu-efis-profile.cpp in Sources */,
 				F635AD4A2E05819E005D6CDC /* usbdevice_mac.cpp in Sources */,
 				F647201F2E16CF6D00C9976B /* usbdevice.cpp in Sources */,
 				F67110DE2E5AF429008D493B /* font.cpp in Sources */,
@@ -523,12 +519,11 @@
 				F6AF9ECC2D078ED400530297 /* appstate.cpp in Sources */,
 				F6A1492F2E4F03A400FB8395 /* product-fmc.cpp in Sources */,
 				F6A149302E4F03A400FB8395 /* toliss-fmc-profile.cpp in Sources */,
+				5DBA92322E6F4D71007328BC /* ff767-fmc-profile.cpp in Sources */,
 				F6A149312E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp in Sources */,
 				F67961952E31357E008031F1 /* usbdevice_lin.cpp in Sources */,
 				F635AD472E0579E9005D6CDC /* usbcontroller_mac.cpp in Sources */,
 				F6AF9EC12D06F84900530297 /* dataref.cpp in Sources */,
-				F6FC2A182E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */,
-				F6FC2A192E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +547,7 @@
 				F6A149462E4F37ED00FB8395 /* FMCControlView.swift in Sources */,
 				F6C3455F2E187AB700D7C987 /* xplane-sdk-mock.cpp in Sources */,
 				F6A149322E4F03A400FB8395 /* product-fmc.cpp in Sources */,
+				F67FE8152E895BAC00C4243C /* laminar-fcu-efis-profile.cpp in Sources */,
 				F6A149332E4F03A400FB8395 /* toliss-fmc-profile.cpp in Sources */,
 				F6A149342E4F03A400FB8395 /* laminar-airbus-fmc-profile.cpp in Sources */,
 				F6A149412E4F04AE00FB8395 /* zibo-fmc-profile.cpp in Sources */,
@@ -560,13 +556,15 @@
 				F6A149442E4F04AE00FB8395 /* ixeg733-fmc-profile.cpp in Sources */,
 				F6827E092E05652800382B28 /* ContentView.swift in Sources */,
 				F6FBC55F2E3A3E15004E5F42 /* FCUEfisControlView.swift in Sources */,
-				F6FC2A162E5C5377009A40E2 /* product-pap3-mcp.cpp in Sources */,
-				F6FC2A172E5C5377009A40E2 /* mcp-zibo-profile.cpp in Sources */,
 				F69FF22D2E1D13CB00F9D2D9 /* GenericDeviceView.swift in Sources */,
 				F69FF22E2E1D13CB00F9D2D9 /* DeviceModel.swift in Sources */,
 				F69FF22F2E1D13CB00F9D2D9 /* JoystickControlView.swift in Sources */,
 				F67110DD2E5AF429008D493B /* font.cpp in Sources */,
+				F6C6E0302E8D5DAA00558F46 /* product-pap3-mcp.cpp in Sources */,
+				F6C6E0312E8D5DAA00558F46 /* laminar-pap3-mcp-profile.cpp in Sources */,
+				F6C6E0322E8D5DAA00558F46 /* zibo-pap3-mcp-profile.cpp in Sources */,
 				F647201E2E16CF6D00C9976B /* usbdevice.cpp in Sources */,
+				5DBA92312E6F4D71007328BC /* ff767-fmc-profile.cpp in Sources */,
 				F67961962E31357E008031F1 /* usbdevice_lin.cpp in Sources */,
 				F635AD422E05697B005D6CDC /* bridge.mm in Sources */,
 			);
@@ -593,11 +591,13 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -636,8 +636,8 @@
 					"$(HEADER_SEARCH_PATHS)",
 				);
 				MACH_O_TYPE = mh_bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				XPSDK_ROOT = SDK;
 			};
@@ -661,14 +661,17 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				EXECUTABLE_EXTENSION = xpl;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(XPSDK_ROOT)/Libraries/Mac",
@@ -702,9 +705,10 @@
 					"$(HEADER_SEARCH_PATHS)",
 				);
 				MACH_O_TYPE = mh_bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				XPSDK_ROOT = SDK;
 			};
 			name = Release;
@@ -713,13 +717,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ARCHS = arm64;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(XPSDK_ROOT)/Libraries/Mac",
-					"$(PROJECT_DIR)/SDK_410/Libraries/Mac",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+					"$(PROJECT_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
@@ -731,7 +734,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DNDEBUG",
@@ -749,7 +752,7 @@
 					"-Wl,-exported_symbol",
 					"-Wl,_XPluginStop",
 				);
-				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = YES;
 				XPSDK_ROOT = SDK;
 			};
@@ -759,16 +762,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ARCHS = (
-					x86_64,
-					arm64,
-				);
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(XPSDK_ROOT)/Libraries/Mac",
-					"$(PROJECT_DIR)/SDK_410/Libraries/Mac",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(XPSDK_ROOT)/CHeaders/Widgets",
@@ -779,7 +778,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DNDEBUG",
@@ -797,7 +796,7 @@
 					"-Wl,-exported_symbol",
 					"-Wl,_XPluginStop",
 				);
-				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = YES;
 				XPSDK_ROOT = SDK;
 			};
@@ -826,6 +825,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = WUAFN7S2AR;
 				ENABLE_APP_SANDBOX = YES;
@@ -903,6 +903,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = WUAFN7S2AR;
 				ENABLE_APP_SANDBOX = YES;
@@ -973,11 +974,13 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1016,8 +1019,8 @@
 					"$(HEADER_SEARCH_PATHS)",
 				);
 				MACH_O_TYPE = mh_bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				XPSDK_ROOT = SDK;
 			};
@@ -1027,13 +1030,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ARCHS = x86_64;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(XPSDK_ROOT)/Libraries/Mac",
-					"$(PROJECT_DIR)/SDK_410/Libraries/Mac",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/SDK/Libraries/Mac",
+					"$(PROJECT_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = (
@@ -1045,7 +1047,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DNDEBUG",
@@ -1063,7 +1065,7 @@
 					"-Wl,-exported_symbol",
 					"-Wl,_XPluginStop",
 				);
-				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = YES;
 				XPSDK_ROOT = SDK;
 			};
@@ -1092,6 +1094,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = WUAFN7S2AR;
 				ENABLE_APP_SANDBOX = YES;
